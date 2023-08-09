@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>md语言学习</title>
+      <link href="/2023/08/09/md%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2023/08/09/md%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="md语言学习"><a href="#md语言学习" class="headerlink" title="md语言学习"></a>md语言学习</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>md语言的标题使用#来表示，如果是一级标题就是一个#，二级标题就是两个#，以此类推，最多可以退至第六级。<br></p><h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><p>不同的 Markdown 应用程序处理 # 和标题之间的空格方式并不一致。为了兼容考虑，要用一个空格在 # 和标题之间进行分隔。<br></p><h3 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h3><p>有关换行，可以在结尾加上空格，也可以在结尾加上html的语法&lt; br &gt;<br></p><h3 id="强调-粗体"><a href="#强调-粗体" class="headerlink" title="强调-粗体"></a>强调-粗体</h3><p>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。eg：Love ** is ** bold <br></p><h3 id="强调-斜体"><a href="#强调-斜体" class="headerlink" title="强调-斜体"></a>强调-斜体</h3><p>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。eg：A * cat * meow<br></p><h3 id="强调-粗体和斜体同时使用"><a href="#强调-粗体和斜体同时使用" class="headerlink" title="强调-粗体和斜体同时使用"></a>强调-粗体和斜体同时使用</h3><p>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。eg:This text is  *** really important ***.<br></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>这是第一篇文章</title>
       <link href="/2023/08/02/2023-8-2-%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
       <url>/2023/08/02/2023-8-2-%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
@@ -20,6 +33,17 @@
     
     
     <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -31,20 +55,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -64,9 +77,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
