@@ -8,7 +8,7 @@
       <link href="/2023/08/09/javaweb%E7%AC%AC%E4%B8%80%E5%A4%A9%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
       <url>/2023/08/09/javaweb%E7%AC%AC%E4%B8%80%E5%A4%A9%E7%9A%84%E5%AD%A6%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<h1 id="javaweb-学习第一天"><a href="#javaweb-学习第一天" class="headerlink" title="javaweb 学习第一天"></a>javaweb 学习第一天</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>web网站的开发模式;<br><img src="https://img1.imgtp.com/2023/08/09/6Vkrq4Cy.jpg" alt="1691564726997.jpg"><br>前端的web开发有：<br>·HTML，CSS,JavaScript<br>·Vue，Element，Nginx<br>后端的web开发有：<em><strong>重点</strong></em></p><ul><li>Maven</li><li>SpringBot Web基础</li><li>Mysql</li><li>SpringBoot Mybatis</li><li>SpringBoot Web开发</li><li>SpringBoot web进阶</li></ul><h2 id="课程安排"><a href="#课程安排" class="headerlink" title="课程安排"></a>课程安排</h2><ul><li>网页是哪些部分组成的？<br> <strong>文字，图片，音频，视频，超链接······</strong></li><li>我们看到的网页背后的本质是什么<br> <strong>程序员写的代码</strong></li><li>前端的代码是如何转换为用户眼中的网页的<br> <strong>1.通过浏览器转换（解析和渲染）成用户看到的网页</strong><br> <strong>2.浏览器中对怠慢进行解析渲染的部分称之为浏览器内核</strong></li></ul><h3 id="web标准"><a href="#web标准" class="headerlink" title="web标准"></a>web标准</h3><ul><li>web标准也称为网页标准，由一系列的标准组成，大部分由w3cc（万维网联盟）负责制定</li><li>三个组成部分<ol><li>HTML：负责网页的结构（页面元素和内容）</li><li>CSS：负责网页的表现（页面元素的外观，位置等页面样式，如颜色大小等）</li><li>JavaScript:负责网页的行为（交互效果）</li></ol></li></ul><h2 id="HTML快速入门"><a href="#HTML快速入门" class="headerlink" title="HTML快速入门"></a>HTML快速入门</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="javaweb-学习第一天"><a href="#javaweb-学习第一天" class="headerlink" title="javaweb 学习第一天"></a>javaweb 学习第一天</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>web网站的开发模式;<br><img src="https://img1.imgtp.com/2023/08/09/6Vkrq4Cy.jpg" alt="1691564726997.jpg"><br>前端的web开发有：</p><ul><li>HTML，CSS,JavaScript</li><li>Vue，Element，Nginx<br>后端的web开发有：<em><strong>重点</strong></em></li><li>Maven</li><li>SpringBot Web基础</li><li>Mysql</li><li>SpringBoot Mybatis</li><li>SpringBoot Web开发</li><li>SpringBoot web进阶</li></ul><h2 id="课程安排"><a href="#课程安排" class="headerlink" title="课程安排"></a>课程安排</h2><ul><li>网页是哪些部分组成的？<br> <strong>文字，图片，音频，视频，超链接······</strong></li><li>我们看到的网页背后的本质是什么<br> <strong>程序员写的代码</strong></li><li>前端的代码是如何转换为用户眼中的网页的<br> <strong>1.通过浏览器转换（解析和渲染）成用户看到的网页</strong><br> <strong>2.浏览器中对怠慢进行解析渲染的部分称之为浏览器内核</strong></li></ul><h3 id="web标准"><a href="#web标准" class="headerlink" title="web标准"></a>web标准</h3><ul><li>web标准也称为网页标准，由一系列的标准组成，大部分由w3cc（万维网联盟）负责制定</li><li>三个组成部分<ol><li>HTML：负责网页的结构（页面元素和内容）</li><li>CSS：负责网页的表现（页面元素的外观，位置等页面样式，如颜色大小等）</li><li>JavaScript:负责网页的行为（交互效果）</li></ol></li></ul><h2 id="HTML快速入门"><a href="#HTML快速入门" class="headerlink" title="HTML快速入门"></a>HTML快速入门</h2><ol><li>什么是HTML？<br> HTML是一种超文本标记语言</li></ol><ul><li>超文本：<em>超越了文本限制，普通文本更强大。除了文字信息，还可以定义图片，音频，视频等内容</em></li><li>标记语言：由标签构成的语言</li></ul><ol start="2"><li>HTML的快速入门</li><li>新建文本文件，后缀名改为.html</li><li>编写HTML结构标签 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line"> &lt;head&gt;</span><br><span class="line">   &lt;title&gt;HTML快速入门&lt;/title&gt;</span><br><span class="line"> &lt;/head&gt;</span><br><span class="line"> &lt;body&gt;</span><br><span class="line">   &lt;h1&gt;hello html&lt;/h1&gt;</span><br><span class="line">   &lt;img src=&quot;1.jpg&gt;</span><br><span class="line"> &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure> <em><strong>一个大致的HTML的文件格式</strong></em></li><li>在 <code>&lt;body&gt;</code> 中填写内容</li><li>HTML语言的特点</li><li>标签不区分大小写（一般使用小写）</li><li>HTML的语法并不严格（语法松散）</li><li>标签的属性<strong>单引号和双引号都可以</strong></li></ol>]]></content>
       
       
       
@@ -46,17 +46,6 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -68,9 +57,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -82,6 +71,17 @@
       <title>电影</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
